@@ -20,8 +20,18 @@ grant unlimited access to the hosted API. Independent deployments are welcome.
 Paths under `public` above are relative to `apps/android/game/public`.
 `credits.json` and `art/garden3d/sources.json` record selected files and changes.
 The in-app Credits reader must remain available in redistributed builds.
-Dependencies resolved from Cargo/Gradle retain their own licenses; this table is
-not a complete transitive dependency notice bundle.
+Dependencies resolved from Cargo/Gradle retain their own licenses. The resolved
+Android graph is recorded in docs/licenses/ANDROID-RUST-DEPENDENCIES.csv (375
+normal/build Rust packages) and ANDROID-JVM-DEPENDENCIES.csv (61 runtime
+artifacts). Bundled Rust-dependencies.txt and Android-JVM-dependencies.txt retain
+upstream/canonical texts, source locations, SDK terms and embedded notices.
+These include build tools as well as runtime code; they are not a claim that all
+listed code ships in the APK. No new SDK or analytics dependency was added.
+
+Some Google/Firebase runtime dependencies use Google SDK/Play terms rather than
+an open source license. The project source remains MIT, but the default Android
+build is not a Google-free software stack. Independent builders must review
+those SDK terms. Android SDK/NDK tools themselves are separate prerequisites.
 
 ## Publication review caveats
 
@@ -30,10 +40,9 @@ not a complete transitive dependency notice bundle.
   [Nature pack page](https://quaternius.com/packs/ultimatestylizednature.html)
   independently identifies CC0 (checked 2026-11-16). Keep the original template
   notice unchanged and retain this source clarification.
-- Review provenance for original/generated home artwork and design concept
-  images; do not assume third-party assets are covered by the project MIT file.
-- Confirm all runtime files are represented in the attribution inventory and
-  produce a complete resolved Cargo/Gradle notice inventory before distribution.
+- Home art was generated with the OpenAI image tool; home-assets.json records
+  provenance and hashes. Public source includes the runtime art and metadata,
+  not the private Blender/visual-review directory or unused reference assets.
 - Preserve CC-BY creator/source/license/change information. Do not describe the
   entire asset library as CC0 or apply non-commercial restrictions to MIT code.
 - The resolved Cargo graph includes Symphonia packages under MPL-2.0. Preserve
@@ -41,6 +50,10 @@ not a complete transitive dependency notice bundle.
   binaries; MIT project licensing does not waive dependency obligations. The
   graph also contains multiple permissive-license alternatives. Check the actual
   distributed target rather than treating all 713 resolved packages as shipped.
+  Exact unmodified 0.5.5 sources and the MPL text are retained under
+  third_party/symphonia-source; Cargo.lock pins their checksums. Include them in
+  the source distribution accompanying binaries and preserve the working source
+  pointers in the app notices.
 
 References: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
 [Firebase public client configuration](https://firebase.google.com/docs/projects/api-keys).

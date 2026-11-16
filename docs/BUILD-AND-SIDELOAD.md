@@ -9,7 +9,7 @@ Source publication is pending owner review; cloning requires access until then.
 Use PowerShell 7 (`pwsh`), Git, Rust stable with MSVC build tools, a JDK 17 or
 newer, and Android command-line SDK tools. Android Studio is optional once the
 SDK/JDK are installed. Set `JAVA_HOME`, `ANDROID_HOME` and `ANDROID_NDK_HOME` to
-their actual directories. Install SDK platform 36, build-tools 36.0.0,
+their actual directories. For example, a standalone JDK can be used instead of Android Studio. Install SDK platform 36, build-tools 36.0.0,
 platform-tools and Android NDK r30. The public helper requires all three
 environment variables and never provisions keys, installs or uploads anything.
 
@@ -80,4 +80,5 @@ builds use the builder's own key. An AAB is not directly sideloadable.
 For the API and browser playground, see the root README and `.env.example`.
 For credits and reuse terms, see THIRD-PARTY-NOTICES.md. No ads, in-app purchases,
 medical effectiveness, or cloud-save recovery are promised by this preview.
+
 

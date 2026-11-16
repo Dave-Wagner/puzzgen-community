@@ -33,3 +33,19 @@ service-account*.json
 /assets/design/corridor-preview/*.blend1
 /assets/design/corridor-preview/*-frames/
 /assets/design/corridor-preview/*.mp4
+# Public-script boundary: new helpers stay local unless explicitly allowlisted.
+# Already tracked private-history helpers still require a clean publication export.
+/scripts/*
+!/scripts/Build-AndroidPublic.ps1
+!/scripts/Build-Frontend.ps1
+!/scripts/Build-Linux.ps1
+!/scripts/Setup-Toolchain.ps1
+!/scripts/Check.ps1
+!/scripts/dev.ts
+!/scripts/export-weather-audio.py
+/docs/play-review/
+/docs/dev-checkpoints/
+/docs/PUBLIC-RELEASE-REVIEW.md
+/docs/public/
+/deploy/
+/scripts-local/
