@@ -1,0 +1,8 @@
+# musl's C runtime and the LLVM linker ship with the Rust target/toolchain.
+# TLS signature verification also compiles ring's C code: Linux release builders
+# need musl-tools. Windows native builds remain unchanged; Windows -> Linux builds
+# additionally require a configured musl C cross-compiler (CC/AR target variables).
+# Do not set a global build.target: local development should remain native.
+[target.x86_64-unknown-linux-musl]
+linker = "rust-lld"
+rustflags = ["-C", "target-feature=+crt-static", "-C", "link-self-contained=yes"]

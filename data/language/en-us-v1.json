@@ -1,0 +1,34 @@
+{
+  "version": "1",
+  "license": "CC0-1.0",
+  "locale": "en-US",
+  "spoonerisms": [
+    {"phrases":["light rain","right lane"],"clues":["A gentle shower from the clouds","The traffic lane on the passenger side in the US"],"onsets":["l","r"],"rimes":["aɪt","eɪn"]},
+    {"phrases":["right wing","white ring"],"clues":["The bird appendage opposite its left wing","A pale circular band"],"onsets":["r","w"],"rimes":["aɪt","ɪŋ"]},
+    {"phrases":["bad money","mad bunny"],"clues":["Cash that is counterfeit or otherwise unsound","An angry rabbit"],"onsets":["b","m"],"rimes":["æd","ʌni"]},
+    {"phrases":["cozy nook","nosy cook"],"clues":["A snug little corner for reading","A kitchen worker who pries into other people's business"],"onsets":["k","n"],"rimes":["oʊzi","ʊk"]},
+    {"phrases":["blushing crow","crushing blow"],"clues":["A black bird turning red with embarrassment, in a cartoon","A devastating strike or setback"],"onsets":["bl","kr"],"rimes":["ʌʃɪŋ","oʊ"]}
+  ],
+  "anagrams": [
+    ["listen","Pay attention with your ears"],["silent","Making no sound"],
+    ["garden","A place where flowers and vegetables grow"],["danger","The possibility of harm"],
+    ["rescue","Save someone from harm"],["secure","Safe and firmly fastened"],
+    ["stream","A small flowing watercourse"],["master","Become highly skilled at something"],
+    ["stone","A small piece of rock"],["notes","Short written reminders"],
+    ["earth","Our home planet"],["heart","The organ that pumps blood"]
+  ],
+  "bridges": [
+    ["sun","flower","pot","A blooming plant part"],["rain","bow","tie","A curved arch or a ribbon knot"],
+    ["snow","ball","room","A round object used in games"],["tooth","brush","wood","A tool with bristles"],
+    ["book","case","work","A container or protective covering"],["door","bell","tower","A ringing instrument"],
+    ["foot","ball","park","A round object used in games"],["sea","shell","fish","A hard protective outer covering"],
+    ["butter","fly","paper","Move through the air with wings"],["star","fish","bowl","An animal that breathes through gills"],
+    ["bird","house","boat","A dwelling"],["moon","light","house","What a lamp produces"]
+  ],
+  "ladders": [
+    ["cold","cord","card","ward","warm"],
+    ["head","heal","teal","tell","tall","tail"],
+    ["cat","cot","cog","dog","dig","fig"],
+    ["boat","coat","cost","most","mast","mist"]
+  ]
+}

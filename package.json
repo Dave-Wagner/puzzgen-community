@@ -1,0 +1,7 @@
+{
+  "name": "puzzgen-dev-tools",
+  "private": true,
+  "scripts": {
+    "dev": "bun run scripts/dev.ts"
+  }
+}

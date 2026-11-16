@@ -1,0 +1,21 @@
+{
+  "source": "Original procedural ornament geometry from assets/design/corridor-preview/add_ornaments.py",
+  "purpose": "Decorative only; no collection or progression mechanics",
+  "files": [
+    {
+      "file": "Birdhouse.glb",
+      "sha256": "dc32a081532fabe5e1c95c8c72b8fbf0c7f6fe4fee4db36b0819c08513d38db6",
+      "bytes": 29844
+    },
+    {
+      "file": "Lantern.glb",
+      "sha256": "a106dd0efa29a3deaa82ce7aa59757d8c8a353119ae9fc35f8e59c314f782ad0",
+      "bytes": 41072
+    },
+    {
+      "file": "Mushrooms.glb",
+      "sha256": "c82ade408107a3a1013c13d4981b8a71ef09fc682fcccb716203b94440079ebc",
+      "bytes": 74108
+    }
+  ]
+}

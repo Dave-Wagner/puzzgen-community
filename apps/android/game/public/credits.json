@@ -1,0 +1,218 @@
+{
+  "packs": [
+    {
+      "name": "Puzzle Pack II",
+      "usage": "Toybox game art and reusable stone tile texture.",
+      "source": "https://kenney.nl/assets/puzzle-pack-2",
+      "id": "puzzle-pack-2",
+      "files": [
+        {
+          "sha256": "88ddcfbc3275d4ac6d68f1fb1fe7644bebff89534f6f6c632b2a941978a29db4",
+          "bundled": "art/toy.png",
+          "original": "PNG/Balls/Blue/ballBlue_01.png"
+        },
+        {
+          "sha256": "412d9d91b45c42ea51966b71f1f0af61b00ae67323784fd5f27ee92f976624da",
+          "bundled": "art/stone.png",
+          "original": "PNG/Back tiles/BackTile_01.png"
+        }
+      ],
+      "archive_sha256": "f1c4c33621007bbddc0df6cbccbc1992a9cf519b803d79f91a4fae8dcb26e277"
+    },
+    {
+      "name": "Particle Pack 1.1",
+      "usage": "Stars, completion glints and magical atmosphere. Filter template contributors: Indigo Ray, Craig Nisbet, Zoltan Erdokovy, Heliagon, ThreeDee, Killst4r, Tim2501.",
+      "source": "https://kenney.nl/assets/particle-pack",
+      "id": "particle-pack",
+      "files": [
+        {
+          "sha256": "398479ea280c8161d0b6d509ca97eefb27e989c7832b404abcb65faae3e922ff",
+          "bundled": "art/magic.png",
+          "original": "PNG (Transparent)/magic_01.png"
+        },
+        {
+          "sha256": "3ba3999c944a0767677449412d306c1f230daa1743b31f929533cf77a22ecf5d",
+          "bundled": "art/star.png",
+          "original": "PNG (Transparent)/star_01.png"
+        }
+      ],
+      "archive_sha256": "b631d4b07f7002549fdcf155f01141ad482f79f3440e4e301eed49ce5f1d8958"
+    },
+    {
+      "name": "Input Prompts 1.5",
+      "usage": "Touch gesture instruction icon.",
+      "source": "https://kenney.nl/assets/input-prompts",
+      "id": "input-prompts",
+      "files": [
+        {
+          "sha256": "49a437abfa095e7ddc41efffd20918e6eb310ef7db883762a0e0e6e813266ff4",
+          "bundled": "art/tap.png",
+          "original": "Touch/Default/touch_finger_one.png"
+        }
+      ],
+      "archive_sha256": "ac2fcf599080b0f3ba2d174c9474db6df1a0e96ff0662580e2da79a122ab78a1"
+    },
+    {
+      "name": "UI Audio",
+      "usage": "Quiet interaction feedback, with a mute control.",
+      "source": "https://kenney.nl/assets/ui-audio",
+      "id": "ui-audio",
+      "files": [
+        {
+          "sha256": "59175ac17cd49a68dd736285738441287636112a84a6f7ce0d89921bda5a5360",
+          "bundled": "audio/click.ogg",
+          "original": "Audio/click1.ogg"
+        }
+      ],
+      "archive_sha256": "946fc23a63d535d693eb31b2eabb80c8c28d6351e2186b344ceb71b2cb1d5eb6"
+    },
+    {
+      "name": "Music Jingles",
+      "usage": "Short puzzle completion jingle.",
+      "source": "https://kenney.nl/assets/music-jingles",
+      "id": "music-jingles",
+      "files": [
+        {
+          "sha256": "1010c9b566d6c090ff03a4aaaf7439e26eb4cc4f20373800d0b7e6a9057b795d",
+          "bundled": "audio/win.ogg",
+          "original": "Audio/8-Bit jingles/jingles_NES00.ogg"
+        },
+        {
+          "sha256": "b442ade3308a2bbda4b8c572c86f9f1071c7bdbcfb1e6f915d35c605b61bd475",
+          "bundled": "audio/garden-win.ogg",
+          "original": "Audio/Pizzicato jingles/jingles_PIZZI00.ogg"
+        }
+      ],
+      "archive_sha256": "b729ba57959bd58793d2c5cafa348aaf2655d354f3da35ec4729e03ec77197b8"
+    },
+    {
+      "id": "nature-garden",
+      "name": "Ultimate Stylized Nature",
+      "creator": "Quaternius",
+      "source": "https://quaternius.com/packs/ultimatestylizednature.html",
+      "license": "CC0 1.0",
+      "usage": "Native garden foliage. Models grounded and normalized; cutout materials adapted for mobile."
+    },
+    {
+      "id": "skyboxes-garden",
+      "name": "Skyboxes",
+      "creator": "Kenney Vleugels / Kenney.nl",
+      "source": "https://kenney.nl/assets/skyboxes",
+      "license": "CC0 1.0",
+      "usage": "Day and night skies, rendered with weather-dependent tint."
+    },
+    {
+      "id": "snow-garden",
+      "name": "Snow010A",
+      "creator": "ambientCG",
+      "source": "https://ambientcg.com/view?id=Snow010A",
+      "license": "CC0 1.0",
+      "usage": "Snow surface texture blended onto upward-facing garden surfaces."
+    },
+    {
+      "id": "weather-data",
+      "name": "Garden weather data",
+      "creator": "Open-Meteo and GeoNames",
+      "source": "https://open-meteo.com/ | https://www.geonames.org/",
+      "license": "CC BY 4.0 | https://creativecommons.org/licenses/by/4.0/",
+      "usage": "Optional saved-city modeled weather, adapted into artistic rain, snow, wind and lighting."
+    }
+  ],
+  "license": "Mixed: see per-pack licenses and music notices",
+  "schema_version": 1,
+  "original_audio": [
+    {
+      "file": "audio/world-0.wav",
+      "sha256": "0c6a226085341253775fb07f5e8cd93aad2b7331397ecd3c8cd766e45bb8af5b",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-1.wav",
+      "sha256": "aed9fea97065ad776664f69c43facb5a6a4c00407c8cfb5dafdeb4c66d50a322",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-2.wav",
+      "sha256": "bcedd7f144975688f306231c59020e7df795ae6116275cabc1f59fda1585166a",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-3.wav",
+      "sha256": "768af1d70860cfda861be9a5355c825115df36cdae77d0051782c9f61bd44361",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-4.wav",
+      "sha256": "cf744b00363900c154eaad60fe9a6f599ab23cc930656ce47ca027b7b2bccd53",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-5.wav",
+      "sha256": "df5f70391db03810290e0aa587c18684b40efc5799c861163333fe821797d1df",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-6.wav",
+      "sha256": "daa208c0ac11711cdf2a7adc51df43eaca8ef74dbae3a5aff7d26ac132424503",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-7.wav",
+      "sha256": "f2850c4f4cba5d4520e91f6f69613694f7011b6a66708de7437ace0209837f8f",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-8.wav",
+      "sha256": "1c732792c16189485d566226edaff4a1b54e340d2cb5d2fc3b56221e66e2814b",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/world-9.wav",
+      "sha256": "2f3e89c4ed74ddc58f92e76c37b82347c5a27caa1e60027d80585e4a19269868",
+      "source": "examples/export_native_audio.rs",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/garden-rain.wav",
+      "sha256": "a0967f32a04656bede41fb6377c7152e7dcdaa239224fa55da593bba11e2a426",
+      "source": "scripts/export-weather-audio.py",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/garden-wind.wav",
+      "sha256": "5c58195860d9a2b1a2ec6704ef256ccf6e5ccfc108fedc4122d34df290e06dd9",
+      "source": "scripts/export-weather-audio.py",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    },
+    {
+      "file": "audio/garden-thunder.wav",
+      "sha256": "bcf6d5589de31ae197e321190f38392b88b783568160c22ff25051649d43f7aa",
+      "source": "scripts/export-weather-audio.py",
+      "creator": "Puzzgen project",
+      "license": "MIT"
+    }
+  ],
+  "creator": "Kenney Vleugels / Kenney.nl",
+  "modifications": "Selected source assets adapted for native rendering; nature scenes grounded and normalized, foliage alpha masks and texture sizes optimized for mobile. Garden import provenance: art/garden3d/sources.json. Existing 2D and music assets retain their original notices."
+}

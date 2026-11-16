@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Puzzgen · API reference</title>
+<style>body{background:#f5f3ec;color:#18262c;font:17px/1.6 system-ui,sans-serif;max-width:960px;margin:0 auto;padding:40px 24px}a{color:#08685a}h1{font-size:clamp(36px,6vw,64px);letter-spacing:-.05em;line-height:1.1}h2{margin-top:40px}code,pre{font:14px/1.6 ui-monospace,monospace}pre{padding:20px;background:#192b30;color:#d9f9df;overflow:auto;border-radius:12px}table{width:100%;border-collapse:collapse}td,th{padding:12px 8px;border-bottom:1px solid #d3d8cf;text-align:left}small{color:#50625c}.badge{color:#08685a;letter-spacing:.15em;font-weight:700;font-size:13px}.routes{overflow:auto}</style></head><body>
+<a href="/">← Puzzle playground</a><p class="badge">PUZZGEN / API V1</p><h1>A fresh puzzle.<br>A repeatable seed.</h1>
+<p>A free puzzle API for learning to build games. Choose a kind and difficulty, save the returned seed, and turn simple JSON into your own interface. Start with the <a href="/#learn">learning hub</a> or <a href="/examples/index.html">working plain JavaScript game</a>.</p>
+<p><a href="/api/v1/openapi.json">Download OpenAPI 3.1</a> · <a href="/api/v1/catalog">Live generator catalog and answer formats</a></p>
+<h2>Generate your first puzzle</h2><pre>curl -X POST http://127.0.0.1:8080/api/v1/generate \
+  -H 'Content-Type: application/json' \
+  -d '{"kind":"sudoku","seed":42,"difficulty":"medium"}'</pre>
+<p>In PowerShell, use <code>Invoke-RestMethod</code>:</p><pre>Invoke-RestMethod http://127.0.0.1:8080/api/v1/generate `
+  -Method Post -ContentType application/json `
+  -Body '{"kind":"sudoku","seed":42,"difficulty":"medium"}'</pre>
+<p>Omit <code>seed</code> for a new puzzle. Seeds are unsigned 64-bit integers in requests and decimal strings in responses. JavaScript clients should use a bigint-aware serializer for values above 2<sup>53</sup>−1. The Rust frontend preserves every bit. Difficulty selects a generation preset; it is not a calibrated human solving rating.</p>
+<h2>Endpoints</h2><div class="routes"><table><thead><tr><th>Method</th><th>Path</th><th>Purpose</th></tr></thead><tbody>
+<tr><td>GET</td><td><code>/api/v1/catalog</code></td><td>Supported kinds, rules, guarantees, answer shapes</td></tr>
+<tr><td>POST</td><td><code>/api/v1/generate</code></td><td>One puzzle; JSON kind, optional seed and difficulty</td></tr>
+<tr><td>GET</td><td><code>/api/v1/puzzles/{kind}</code></td><td>One puzzle; optional seed, difficulty query parameters</td></tr>
+<tr><td>POST</td><td><code>/api/v1/batch</code></td><td>1–16 puzzles in a <code>{"puzzles":[…]}</code> body</td></tr>
+<tr><td>GET</td><td><code>/api/v1/daily/{kind}</code></td><td>Daily seed; optional date=YYYY-MM-DD, difficulty</td></tr>
+<tr><td>POST</td><td><code>/api/v1/verify</code></td><td>Check kind, seed, difficulty, answer; returns correct</td></tr>
+<tr><td>GET</td><td><code>/health/live</code></td><td>Process liveness</td></tr>
+<tr><td>GET</td><td><code>/health/ready</code></td><td>API readiness; no database required</td></tr>
+<tr><td>GET</td><td><code>/metrics</code></td><td>Prometheus counters; key protected when configured</td></tr>
+<tr><td>GET</td><td><code>/api/v1/openapi.json</code></td><td>Machine-readable API contract</td></tr>
+</tbody></table></div>
+<h2>Ten puzzle families</h2><p><code>sudoku</code>, <code>mini-sudoku</code>, <code>maze</code>, <code>nonogram</code>, <code>word-search</code>, <code>sliding-puzzle</code>, <code>lights-out</code>, <code>minesweeper</code>, <code>arithmetic</code>, and <code>cryptogram</code>. Each response states its rules and uniqueness guarantee. The catalog describes the answer format for each generator.</p>
+<h2>Reveal and verify</h2><p>Solutions are omitted unless you explicitly set <code>include_solution: true</code> (or the equivalent query parameter). Send an answer in the catalog's format:</p><pre>{"kind":"arithmetic","seed":42,"difficulty":"medium","answer":123}</pre>
+<p>Verification returns <code>{"correct":true}</code> or <code>{"correct":false}</code>. Invalid request structure returns a JSON error. Daily puzzles use UTC, and their date response includes the selected date. Replay requires the same kind, seed, difficulty, and generator version.</p>
+<h2>Free member accounts and API keys</h2><p>On member-enabled instances, <a href="/account">create a free account</a> and manage your profile and API keys. Regular accounts start with three active keys, 10 compute requests per minute, 100 puzzle operations per UTC day, one puzzle per batch, and one concurrent operation. These budgets are shared across all keys and the signed-in playground. Administrators can grant custom allocations. The session page displays your actual limits and usage.</p><pre>fetch(`${apiOrigin}/api/v1/puzzles/maze?seed=42`, {
+  headers: { Authorization: `Bearer ${yourKey}` }
+});</pre><p>Keys are shown once at creation. Revoke and replace them if exposed. Browser keys are visible to their users; never publish your private key in an example. Account management and administration require a browser session; API keys only authorize puzzle computation. The account page uses HttpOnly cookies and CSRF-protected mutations. OAuth and automated email recovery remain future additions.</p>
+<h2>Fair use</h2><p>This is personally funded: fetch on user actions, reuse data, and use fixtures while iterating. Cross-origin key requests support GET/POST and JSON preflights. Retry-After accompanies quota and capacity failures. Catalog, documentation, health, and offline lessons remain public. Deployments without member storage retain the legacy public/static-key mode with a default shared budget of 120 requests per minute.</p><p>A batch is one request and costs one daily operation per puzzle; answer verification also costs one operation. CPU capacity is bounded independently of account quotas. The server accepts at most 16 puzzles per batch and 64 KiB per request, with a 15-second HTTP budget. The account API is documented under the Accounts tag in the <a href="/api/v1/openapi.json">OpenAPI contract</a>.</p><pre>{"error":{"code":"quota_exceeded","message":"Your requests-per-minute limit has been reached"}}</pre>
+<p>Errors use 400 (invalid input), 401 (key required), 413 (body too large), 429 (rate budget), 503 (busy), or 504 (time budget). Retry-After accompanies 429 and 503. Unknown API routes return 404, unsupported methods return 405.</p>
+<p>Seeds and reveal endpoints make this an open puzzle construction API. A competitive game needs a separate trusted game-session boundary that does not expose seeds or solutions to players.</p>
+<small>Procedural generation offers a vast finite seed space, not a guarantee that every seed produces a different puzzle. See README.md for architecture, deployment, and the expansion roadmap.</small>
+</body></html>

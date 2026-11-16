@@ -1,0 +1,151 @@
+{
+  "license": "CC0-1.0",
+  "archive_sha256": "c910bf666991bd052e97e2c93d9d0dc1617ff3ca7006ad89b4352e007b04cb0b",
+  "files": [
+    {
+      "bundled": "art/garden3d/Bush.gltf",
+      "original": "glTF/Bush.gltf (grounded, normalized; alpha mask)",
+      "sha256": "c69a574fce6ef80b7e24c4d92d050782241043e46a5fb494310f4ff0c48824a8"
+    },
+    {
+      "bundled": "art/garden3d/Bush.bin",
+      "original": "glTF/Bush.bin",
+      "sha256": "c8a583d0741f37ec5e256d8dfc05d82f94689cf93bf3fb7b95e716d1e05ba11f"
+    },
+    {
+      "bundled": "art/garden3d/Bush_Leaves.png",
+      "original": "glTF/Bush_Leaves.png (mobile texture size capped; originals retained)",
+      "sha256": "9f662296a285ca56b1ed56e952a198b93b466ae39ab7b6ee1c1ac1bd1c46242f"
+    },
+    {
+      "bundled": "art/garden3d/Bush_Flowers.gltf",
+      "original": "glTF/Bush_Flowers.gltf (grounded, normalized; alpha mask)",
+      "sha256": "b683b20c8ad3ea193e779a0d8062af2dde327979eb9a45bb34c66e8259139c69"
+    },
+    {
+      "bundled": "art/garden3d/Bush_Flowers.bin",
+      "original": "glTF/Bush_Flowers.bin",
+      "sha256": "d0b734b66250927042c6b00cf567cc11095fac72a5719cb1c05edaad4d665e0e"
+    },
+    {
+      "bundled": "art/garden3d/Flowers.png",
+      "original": "glTF/Flowers.png (mobile texture size capped; originals retained)",
+      "sha256": "23673fc87e55d8f7cbc699581a164cffec505376bd8b0b90b593dc387aa569fd"
+    },
+    {
+      "bundled": "art/garden3d/Bush_Small_Flowers.gltf",
+      "original": "glTF/Bush_Small_Flowers.gltf (grounded, normalized; alpha mask)",
+      "sha256": "0307b1262693fbdc7847924446a62ffc972d2e8f3e14df2e1750a4004b936716"
+    },
+    {
+      "bundled": "art/garden3d/Bush_Small_Flowers.bin",
+      "original": "glTF/Bush_Small_Flowers.bin",
+      "sha256": "fad6f6fb060b3c515b963a3b66bd3c006d0d781a6c4d1bd72c580c57a2864d37"
+    },
+    {
+      "bundled": "art/garden3d/BirchTree_1.gltf",
+      "original": "glTF/BirchTree_1.gltf (grounded, normalized; alpha mask)",
+      "sha256": "366d0e1447b6a31370deb6227821a180b4bbc7b823de7fde57edaed3bba02c5c"
+    },
+    {
+      "bundled": "art/garden3d/BirchTree_1.bin",
+      "original": "glTF/BirchTree_1.bin",
+      "sha256": "a1b14d1c82ebb8153991de4156b77ceaa1143d64469679147c0ee249c8b90b83"
+    },
+    {
+      "bundled": "art/garden3d/BirchTree_Bark_Normal.png",
+      "original": "glTF/BirchTree_Bark_Normal.png (normal map resampled to 512px for mobile) (mobile texture size capped; originals retained)",
+      "sha256": "2fb8114b4180ed112d53d6e7bafcd1684376f0a82e1e8971587a19c17cc9619f"
+    },
+    {
+      "bundled": "art/garden3d/BirchTree_Bark.jpg",
+      "original": "glTF/BirchTree_Bark.jpg (mobile texture size capped; originals retained)",
+      "sha256": "e15e1f48d7dec212a2083fb28871e66da8420fe29e4bf21cbf71fc776192d4d1"
+    },
+    {
+      "bundled": "art/garden3d/BirchTree_Leaves.png",
+      "original": "glTF/BirchTree_Leaves.png (mobile texture size capped; originals retained)",
+      "sha256": "8b674a02017d987f8ec0448bd2a52ad788d1235f91b7f00499b4ca071f8e69fe"
+    },
+    {
+      "bundled": "art/garden3d/MapleTree_1.gltf",
+      "original": "glTF/MapleTree_1.gltf (grounded, normalized; alpha mask)",
+      "sha256": "5a99345449f24c885eb4d2ca259b5c93b239b6093a6284145c8afd3a203f5982"
+    },
+    {
+      "bundled": "art/garden3d/MapleTree_1.bin",
+      "original": "glTF/MapleTree_1.bin",
+      "sha256": "03cfea606b55f8f38220f2922e28efb92d724abac801f76191ba062c398bf09c"
+    },
+    {
+      "bundled": "art/garden3d/MapleTree_Bark_Normal.png",
+      "original": "glTF/MapleTree_Bark_Normal.png (normal map resampled to 512px for mobile) (mobile texture size capped; originals retained)",
+      "sha256": "0eb492800a3c4d75b93ad8bbe53bc459e0e101277d16e5bc59a1305c058af6f3"
+    },
+    {
+      "bundled": "art/garden3d/MapleTree_Bark.jpg",
+      "original": "glTF/MapleTree_Bark.jpg (mobile texture size capped; originals retained)",
+      "sha256": "ca6d75ff3a920b1d088f8536f348287f41a51c61ba3276beca42205d04bc4423"
+    },
+    {
+      "bundled": "art/garden3d/MapleTree_Leaves.png",
+      "original": "glTF/MapleTree_Leaves.png (mobile texture size capped; originals retained)",
+      "sha256": "915f0836e9889e28032662c7aa0d0eb9601ba999eda042c9a4e38690786d6c7b"
+    },
+    {
+      "bundled": "art/garden3d/Flower_2_Clump.gltf",
+      "original": "glTF/Flower_2_Clump.gltf (grounded, normalized; alpha mask)",
+      "sha256": "141b080d04a224200a561d4be58562dd07a0512ea105525221f0a05b3335916d"
+    },
+    {
+      "bundled": "art/garden3d/Flower_2_Clump.bin",
+      "original": "glTF/Flower_2_Clump.bin",
+      "sha256": "8a01c10f325ab84f6376182b87786172829592f5391814294a38d733bbe6afa0"
+    },
+    {
+      "bundled": "art/garden3d/Flower_4_Clump.gltf",
+      "original": "glTF/Flower_4_Clump.gltf (grounded, normalized; alpha mask)",
+      "sha256": "8c5adc663164526195e336210df98d5d9ee7a99fb4e872cfd2ee0a87274376d2"
+    },
+    {
+      "bundled": "art/garden3d/Flower_4_Clump.bin",
+      "original": "glTF/Flower_4_Clump.bin",
+      "sha256": "174f2e1a4c63b6d22ed997af806b541523a3e825a015453392edfeaf30695310"
+    },
+    {
+      "bundled": "art/garden3d/Grass_Small.gltf",
+      "original": "glTF/Grass_Small.gltf (grounded, normalized; alpha mask)",
+      "sha256": "204bfa8c7cf075587f64bfef65da94666e33c0ecf3d23d5ef1fb54994c30de88"
+    },
+    {
+      "bundled": "art/garden3d/Grass_Small.bin",
+      "original": "glTF/Grass_Small.bin",
+      "sha256": "b55b62b2913234c50bb506b1aaa7bee183c0d478c5da3631824413712282c7f8"
+    },
+    {
+      "bundled": "art/garden3d/Grass.png",
+      "original": "glTF/Grass.png (mobile texture size capped; originals retained)",
+      "sha256": "facde747020acfefdc84d176dd4037282895d200a66fc20b0d9baca470f310f1"
+    },
+    {
+      "bundled": "art/garden3d/skybox-day.png",
+      "original": "Skyboxes/skybox-day.png (mobile texture size capped; originals retained)",
+      "sha256": "7ecfe7c9e29567f42ae883ccf73823134f4f56beb1dc637631a3eaab3520a4be"
+    },
+    {
+      "bundled": "art/garden3d/skybox-morning.png",
+      "original": "Skyboxes/skybox-morning.png (mobile texture size capped; originals retained)",
+      "sha256": "916789c2fbc6c52936f5bc0c865d023d2c819e3111d890bbbd25353f0a560787"
+    },
+    {
+      "bundled": "art/garden3d/skybox-night.png",
+      "original": "Skyboxes/skybox-night.png (mobile texture size capped; originals retained)",
+      "sha256": "204993a5b9664422e87c184cc0dac04f343e501d08882b3c4c045b7e64aa0069"
+    },
+    {
+      "bundled": "art/garden3d/snow.jpg",
+      "original": "Snow010A_1K-JPG_Color.jpg (mobile texture size capped; originals retained)",
+      "sha256": "ce7b984376757d3c0f7e5fdd43fa84241a9f7026c9f530813c2e493061a369b2"
+    }
+  ]
+}

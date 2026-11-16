@@ -1,0 +1,229 @@
+[
+  {
+    "id": "v2-spoonerism-42-medium",
+    "generator_version": "2",
+    "kind": "spoonerism",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "clue": "The bird appendage opposite its left wing",
+      "content_license": "CC0-1.0",
+      "content_version": "1",
+      "hint": "Swap the initial consonant sounds of the two words, keeping the remaining sounds in order.",
+      "locale": "en-US",
+      "source_phrase": "white ring",
+      "source_sounds": [
+        "waɪt",
+        "rɪŋ"
+      ],
+      "word_lengths": [
+        5,
+        4
+      ]
+    },
+    "solution": "right wing",
+    "rules": "Swap the opening consonant sounds of the source words to match the clue. Curated general US English; spelling alone is not the rule. Answer with the target phrase.",
+    "uniqueness": "curated-answer-only-linguistic-uniqueness-not-guaranteed"
+  },
+  {
+    "id": "v2-anagram-42-medium",
+    "generator_version": "2",
+    "kind": "anagram",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "clue": "A place where flowers and vegetables grow",
+      "content_license": "CC0-1.0",
+      "content_version": "1",
+      "length": 6,
+      "letters": "gerdan",
+      "locale": "en-US"
+    },
+    "solution": "garden",
+    "rules": "Rearrange all supplied letters into the clued word. Hard mode accepts any listed vocabulary word with exactly those letters. ASCII case and repeated whitespace are ignored.",
+    "uniqueness": "curated-answer-or-hard-mode-vocabulary-anagrams"
+  },
+  {
+    "id": "v2-word-ladder-42-medium",
+    "generator_version": "2",
+    "kind": "word-ladder",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "allowed_words": [
+        "boat",
+        "card",
+        "coat",
+        "cold",
+        "cord",
+        "cost",
+        "head",
+        "heal",
+        "mast",
+        "mist",
+        "most",
+        "tail",
+        "tall",
+        "teal",
+        "tell",
+        "ward",
+        "warm"
+      ],
+      "content_license": "CC0-1.0",
+      "content_version": "1",
+      "end": "warm",
+      "locale": "en-US",
+      "max_steps": 4,
+      "minimum_steps": 3,
+      "start": "cord"
+    },
+    "solution": [
+      "cord",
+      "card",
+      "ward",
+      "warm"
+    ],
+    "rules": "Change one letter at a time from start to end using only allowed_words. Submit the full path, including endpoints, with no repeated words and at most max_steps changes.",
+    "uniqueness": "multiple-valid-solutions-accepted"
+  },
+  {
+    "id": "v2-compound-bridge-42-medium",
+    "generator_version": "2",
+    "kind": "compound-bridge",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "clue": "A round object used in games",
+      "content_license": "CC0-1.0",
+      "content_version": "1",
+      "left": "snow",
+      "length": 4,
+      "locale": "en-US",
+      "right": "room"
+    },
+    "solution": "ball",
+    "rules": "Find the middle word forming two curated compounds: left+answer and answer+right. Compounds may conventionally be closed, spaced or hyphenated. Answer with the middle word.",
+    "uniqueness": "curated-answer-only-linguistic-uniqueness-not-guaranteed"
+  },
+  {
+    "id": "v2-spoonerism-42-medium-content2",
+    "generator_version": "2",
+    "kind": "spoonerism",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "clue": "Cash that is counterfeit or otherwise unsound",
+      "content_license": "CC0-1.0",
+      "content_version": "2",
+      "hint": "Swap the initial consonant sounds of the two words, keeping the remaining sounds in order.",
+      "learning": {
+        "experiment": "Say the starting phrase slowly, then exchange only its opening sounds.",
+        "objective": "Hear how words are built from sounds",
+        "principle": "An onset is the opening consonant sound or cluster. Swap the onsets, keeping each word's remaining sounds in place. Spelling may change."
+      },
+      "locale": "en-US",
+      "source_phrase": "mad bunny",
+      "source_sounds": [
+        "mæd",
+        "bʌni"
+      ],
+      "word_lengths": [
+        3,
+        5
+      ]
+    },
+    "solution": "bad money",
+    "rules": "Swap the opening consonant sounds of the source words to match the clue. Curated general US English; spelling alone is not the rule. Answer with the target phrase.",
+    "uniqueness": "curated-answer-only-linguistic-uniqueness-not-guaranteed"
+  },
+  {
+    "id": "v2-anagram-42-medium-content2",
+    "generator_version": "2",
+    "kind": "anagram",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "clue": "A container for cut flowers",
+      "content_license": "CC0-1.0",
+      "content_version": "2",
+      "learning": {
+        "experiment": "Sort the supplied letters, or count how many times each letter appears.",
+        "objective": "Recognize a letter multiset",
+        "principle": "Anagrams preserve the number of each letter, including duplicates. A clue can distinguish words that use exactly the same letters."
+      },
+      "length": 4,
+      "letters": "asev",
+      "locale": "en-US"
+    },
+    "solution": "vase",
+    "rules": "Rearrange all supplied letters into the clued word. Hard mode accepts any listed vocabulary word with exactly those letters. ASCII case and repeated whitespace are ignored.",
+    "uniqueness": "curated-answer-or-hard-mode-vocabulary-anagrams"
+  },
+  {
+    "id": "v2-word-ladder-42-medium-content2",
+    "generator_version": "2",
+    "kind": "word-ladder",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "allowed_words": [
+        "bad",
+        "bag",
+        "bat",
+        "bed",
+        "big",
+        "cat",
+        "cog",
+        "cot",
+        "dig",
+        "dog",
+        "dot",
+        "red"
+      ],
+      "content_license": "CC0-1.0",
+      "content_version": "2",
+      "end": "dog",
+      "learning": {
+        "experiment": "Compare two neighboring words: exactly one position should change.",
+        "objective": "Explore a graph one edge at a time",
+        "principle": "Words are vertices; a one-letter substitution creates an edge. Breadth-first search finds a shortest route, but other legal routes can also work."
+      },
+      "locale": "en-US",
+      "max_steps": 4,
+      "minimum_steps": 3,
+      "start": "cat"
+    },
+    "solution": [
+      "cat",
+      "cot",
+      "cog",
+      "dog"
+    ],
+    "rules": "Change one letter at a time from start to end using only allowed_words. Submit the full path, including endpoints, with no repeated words and at most max_steps changes.",
+    "uniqueness": "multiple-valid-solutions-accepted"
+  },
+  {
+    "id": "v2-compound-bridge-42-medium-content2",
+    "generator_version": "2",
+    "kind": "compound-bridge",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "clue": "Illumination from a bulb",
+      "content_license": "CC0-1.0",
+      "content_version": "2",
+      "learning": {
+        "experiment": "Read the left word with your answer, then your answer with the right word.",
+        "objective": "Connect words through meaning",
+        "principle": "A bridge word participates in two established compounds. Meaning and usage matter; joining arbitrary words does not guarantee a familiar compound."
+      },
+      "left": "head",
+      "length": 5,
+      "locale": "en-US",
+      "right": "house"
+    },
+    "solution": "light",
+    "rules": "Find the middle word forming two curated compounds: left+answer and answer+right. Compounds may conventionally be closed, spaced or hyphenated. Answer with the middle word.",
+    "uniqueness": "curated-answer-only-linguistic-uniqueness-not-guaranteed"
+  }
+]

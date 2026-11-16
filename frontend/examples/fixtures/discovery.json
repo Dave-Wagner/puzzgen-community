@@ -1,0 +1,536 @@
+[
+  {
+    "id": "v2-word-sorting-42-medium",
+    "generator_version": "2",
+    "kind": "word-sorting",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "categories": [
+        {
+          "id": "c0",
+          "label": "Vehicles"
+        },
+        {
+          "id": "c1",
+          "label": "Geometric shapes"
+        },
+        {
+          "id": "c2",
+          "label": "Kitchen utensils"
+        }
+      ],
+      "content_license": "CC0-1.0",
+      "content_revision": "1",
+      "items": [
+        {
+          "id": "w7",
+          "text": "grater"
+        },
+        {
+          "id": "w3",
+          "text": "rectangle"
+        },
+        {
+          "id": "w0",
+          "text": "bicycle"
+        },
+        {
+          "id": "w5",
+          "text": "triangle"
+        },
+        {
+          "id": "w8",
+          "text": "colander"
+        },
+        {
+          "id": "w4",
+          "text": "pentagon"
+        },
+        {
+          "id": "w2",
+          "text": "canoe"
+        },
+        {
+          "id": "w1",
+          "text": "scooter"
+        },
+        {
+          "id": "w6",
+          "text": "ladle"
+        }
+      ],
+      "learning": {
+        "objective": "Classify using a stated rule",
+        "principle": "A category is a rule for membership. Use the supplied everyday meanings; each item has one curated category."
+      }
+    },
+    "solution": {
+      "w0": "c0",
+      "w1": "c0",
+      "w2": "c0",
+      "w3": "c1",
+      "w4": "c1",
+      "w5": "c1",
+      "w6": "c2",
+      "w7": "c2",
+      "w8": "c2"
+    },
+    "rules": "Assign each item ID to its curated category ID. Use the everyday meanings supplied by the category labels.",
+    "uniqueness": "curated-category-assignment"
+  },
+  {
+    "id": "v2-sequence-detective-42-medium",
+    "generator_version": "2",
+    "kind": "sequence-detective",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "content_license": "CC0-1.0",
+      "content_revision": "1",
+      "family": "constant addition",
+      "learning": {
+        "objective": "Identify a rule and test it",
+        "principle": "A finite sequence can fit many invented rules. Here the named family constrains the intended rule; test it against every visible term."
+      },
+      "missing_index": 3,
+      "terms": [
+        1,
+        6,
+        11,
+        null,
+        21,
+        26,
+        31
+      ]
+    },
+    "solution": 16,
+    "rules": "Find the missing integer using the named sequence family; do not invent a different rule.",
+    "uniqueness": "unique-within-stated-family"
+  },
+  {
+    "id": "v2-memory-pairs-42-medium",
+    "generator_version": "2",
+    "kind": "memory-pairs",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "cards": [
+        {
+          "face": "leaf",
+          "id": "m0"
+        },
+        {
+          "face": "sun",
+          "id": "m1"
+        },
+        {
+          "face": "shell",
+          "id": "m2"
+        },
+        {
+          "face": "lantern",
+          "id": "m3"
+        },
+        {
+          "face": "moon",
+          "id": "m4"
+        },
+        {
+          "face": "sun",
+          "id": "m5"
+        },
+        {
+          "face": "lantern",
+          "id": "m6"
+        },
+        {
+          "face": "shell",
+          "id": "m7"
+        },
+        {
+          "face": "moon",
+          "id": "m8"
+        },
+        {
+          "face": "leaf",
+          "id": "m9"
+        }
+      ],
+      "content_license": "CC0-1.0",
+      "content_revision": "1",
+      "learning": {
+        "objective": "Remember positions and make associations",
+        "principle": "Turn over two cards at a time and remember their positions. Faces are public construction data, not a secure hidden deck; your interface controls when they appear."
+      },
+      "pair_count": 5
+    },
+    "solution": [
+      [
+        "m4",
+        "m8"
+      ],
+      [
+        "m3",
+        "m6"
+      ],
+      [
+        "m1",
+        "m5"
+      ],
+      [
+        "m2",
+        "m7"
+      ],
+      [
+        "m0",
+        "m9"
+      ]
+    ],
+    "rules": "Pair every card ID exactly once with another card having the same face. Faces are public construction data, not an anti-cheat boundary.",
+    "uniqueness": "multiple-pair-orders-accepted"
+  },
+  {
+    "id": "v2-path-connections-42-medium",
+    "generator_version": "2",
+    "kind": "path-connections",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "content_license": "CC0-1.0",
+      "content_revision": "1",
+      "direction_bits": {
+        "east": 2,
+        "north": 1,
+        "south": 4,
+        "west": 8
+      },
+      "goal": [
+        3,
+        3
+      ],
+      "grid": [
+        [
+          2,
+          1,
+          14,
+          2
+        ],
+        [
+          12,
+          9,
+          9,
+          3
+        ],
+        [
+          2,
+          9,
+          10,
+          14
+        ],
+        [
+          12,
+          5,
+          10,
+          12
+        ]
+      ],
+      "learning": {
+        "objective": "Connect a network without leaks",
+        "principle": "Rotation preserves a tile's ports. Every port must meet its neighbor's opposite port, and every tile must connect to the source."
+      },
+      "size": 4,
+      "source": [
+        0,
+        0
+      ]
+    },
+    "solution": [
+      [
+        4,
+        2,
+        14,
+        8
+      ],
+      [
+        3,
+        12,
+        3,
+        12
+      ],
+      [
+        4,
+        3,
+        10,
+        13
+      ],
+      [
+        3,
+        10,
+        10,
+        9
+      ]
+    ],
+    "rules": "Rotate tiles to connect every tile to the source. Every port must meet an opposite port; no boundary leaks are allowed. Bits: north=1 east=2 south=4 west=8.",
+    "uniqueness": "multiple-valid-orientations-accepted"
+  },
+  {
+    "id": "v2-futoshiki-42-medium",
+    "generator_version": "2",
+    "kind": "futoshiki",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "clue_count": 6,
+      "content_license": "CC0-1.0",
+      "content_revision": "1",
+      "grid": [
+        [
+          4,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "inequalities": [
+        {
+          "first": [
+            2,
+            2
+          ],
+          "op": "<",
+          "second": [
+            2,
+            3
+          ]
+        },
+        {
+          "first": [
+            1,
+            3
+          ],
+          "op": "<",
+          "second": [
+            2,
+            3
+          ]
+        },
+        {
+          "first": [
+            2,
+            1
+          ],
+          "op": ">",
+          "second": [
+            3,
+            1
+          ]
+        },
+        {
+          "first": [
+            2,
+            0
+          ],
+          "op": "<",
+          "second": [
+            2,
+            1
+          ]
+        },
+        {
+          "first": [
+            1,
+            1
+          ],
+          "op": ">",
+          "second": [
+            1,
+            2
+          ]
+        },
+        {
+          "first": [
+            3,
+            1
+          ],
+          "op": "<",
+          "second": [
+            3,
+            2
+          ]
+        },
+        {
+          "first": [
+            0,
+            2
+          ],
+          "op": ">",
+          "second": [
+            0,
+            3
+          ]
+        },
+        {
+          "first": [
+            0,
+            1
+          ],
+          "op": "<",
+          "second": [
+            0,
+            2
+          ]
+        }
+      ],
+      "learning": {
+        "objective": "Combine Latin-square and ordering constraints",
+        "principle": "Each row and column contains 1–4 once. Inequalities add ordering information. Clues are removed only when a bounded solver verifies a single completion."
+      },
+      "size": 4
+    },
+    "solution": [
+      [
+        4,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        4,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        3
+      ]
+    ],
+    "rules": "Fill zeros with 1–4 exactly once per row and column. Preserve givens and satisfy all adjacent inequalities.",
+    "uniqueness": "verified-unique"
+  },
+  {
+    "id": "v2-sound-families-42-medium",
+    "generator_version": "2",
+    "kind": "sound-families",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "anchor": "door",
+      "content_license": "CC0-1.0",
+      "content_revision": "1",
+      "convention": "general US English",
+      "hint": "Match the final stressed vowel and following sounds",
+      "learning": {
+        "objective": "Listen beyond spelling",
+        "principle": "Rhyming words share a stressed vowel and the following sounds. Different spellings can represent the same ending; pronunciations vary by accent."
+      },
+      "words": [
+        {
+          "id": "s0",
+          "text": "tree"
+        },
+        {
+          "id": "s1",
+          "text": "chain"
+        },
+        {
+          "id": "s2",
+          "text": "floor"
+        },
+        {
+          "id": "s3",
+          "text": "shoe"
+        },
+        {
+          "id": "s4",
+          "text": "shore"
+        },
+        {
+          "id": "s5",
+          "text": "more"
+        }
+      ]
+    },
+    "solution": [
+      "s2",
+      "s4",
+      "s5"
+    ],
+    "rules": "Select every candidate ID that rhymes with the anchor in general US English. Order is ignored; duplicate IDs are rejected.",
+    "uniqueness": "curated-pronunciation-family"
+  },
+  {
+    "id": "v2-sentence-assembly-42-medium",
+    "generator_version": "2",
+    "kind": "sentence-assembly",
+    "seed": "42",
+    "difficulty": "medium",
+    "data": {
+      "content_license": "CC0-1.0",
+      "content_revision": "1",
+      "hint": "The adverb can appear at the end, before the verb, or at the beginning",
+      "learning": {
+        "objective": "Explore sentence structure and flexible word order",
+        "principle": "A noun phrase identifies who acts, a verb describes the action, and an adverb describes how. This controlled grammar accepts three placements of the adverb, not every possible English sentence."
+      },
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "curious"
+        },
+        {
+          "id": "t3",
+          "text": "rests"
+        },
+        {
+          "id": "t0",
+          "text": "the"
+        },
+        {
+          "id": "t4",
+          "text": "patiently"
+        },
+        {
+          "id": "t2",
+          "text": "cat"
+        }
+      ]
+    },
+    "solution": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4"
+    ],
+    "rules": "Use every tile ID once. Build the noun phrase (the adjective animal), then action and adverb. The adverb may go at the end, before the verb, or at the beginning.",
+    "uniqueness": "three-controlled-grammar-orders-accepted"
+  }
+]

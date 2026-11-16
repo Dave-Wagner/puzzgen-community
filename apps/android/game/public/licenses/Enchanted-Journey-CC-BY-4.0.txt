@@ -1,0 +1,12 @@
+Enchanted Journey
+Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0
+https://creativecommons.org/licenses/by/4.0/
+
+Track: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100799
+Original recording: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Enchanted%20Journey.mp3
+Artist licensing instructions: https://incompetech.com/music/royalty-free/faq.html
+ISRC: USUAN1100799
+
+Status: Toybox Garden music candidate, pending Dave's review.
+Changes: recording copied unchanged. The app fades playback in/out and adjusts playback volume. No endorsement by the composer is implied.

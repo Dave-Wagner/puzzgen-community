@@ -1,0 +1,35 @@
+/target
+/.tools/
+/.artifacts/
+/frontend/dist/
+/frontend/target/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+/release/
+/apps/android/.gradle/
+/apps/android/.kotlin/
+/apps/android/.idea/
+/apps/android/**/build/
+/apps/android/local.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+/apps/android/game/dist/
+/apps/android/native/jniLibs/
+# Private credentials and local database/backup material must never be staged.
+service-account*.json
+*-adminsdk-*.json
+*.key
+*.p8
+*.mobileprovision
+*.sql.gz
+*.dump
+# Blender previews are local working outputs; selected runtime assets live in public/.
+/assets/design/corridor-preview/*.log
+/assets/design/corridor-preview/*.blend1
+/assets/design/corridor-preview/*-frames/
+/assets/design/corridor-preview/*.mp4

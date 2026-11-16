@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:name="org.davewagner.puzzgen.permission.MIGRATE" android:protectionLevel="signature" />
+    <uses-permission android:name="org.davewagner.puzzgen.permission.MIGRATE" />
+    <queries><package android:name="org.davewagner.puzzgen.dev" /></queries>
+    <application>
+        <provider android:name="org.davewagner.puzzgen.LegacyMigrationProvider"
+            android:authorities="${applicationId}.migration" android:exported="true"
+            android:permission="org.davewagner.puzzgen.permission.MIGRATE" />
+    </application>
+    <instrumentation android:name="org.davewagner.puzzgen.BrandMigration"
+        android:targetPackage="${applicationId}" android:functionalTest="true" />
+    <instrumentation android:name="org.davewagner.puzzgen.GuestAuthSmoke"
+        android:targetPackage="${applicationId}" android:functionalTest="true" />
+</manifest>

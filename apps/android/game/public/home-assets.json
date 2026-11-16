@@ -1,0 +1,57 @@
+{
+  "music": {
+    "license": "CC-BY-4.0",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+    "changes": "Recording unchanged; runtime volume and fades",
+    "title": "Carefree",
+    "notice": "licenses/Carefree-CC-BY-4.0.txt",
+    "creator": "Kevin MacLeod",
+    "status": "review candidate"
+  },
+  "status": "pending-home-page-review",
+  "assets": [
+    {
+      "file": "art/home/worlds-v1.png",
+      "sha256": "e7419be01b4961580c14f43acab4a97815767511f1d39e35dcf66834f37644d1"
+    },
+    {
+      "file": "art/home/welcome-v1.png",
+      "sha256": "44c577f86ac7bdaf91491239b49a2b15fb5dd1b170269406f9dd25054d65de40"
+    },
+    {
+      "file": "fonts/BreeSerif-Regular.ttf",
+      "sha256": "fd080582d70112ef479ba4ddd72407f9a4fcbcec4caa7d29de259b13eeb5f431"
+    },
+    {
+      "file": "fonts/AtkinsonHyperlegible-Regular.ttf",
+      "sha256": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669"
+    },
+    {
+      "file": "audio/home-carefree.mp3",
+      "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311"
+    },
+    {
+      "sha256": "b2ca99f8786c8ff1569589656c2233d470cd0109457c85b91d1fde7a2447d99c",
+      "file": "art/home/garden-v1.png"
+    },
+    {
+      "sha256": "9ada17171c3f3b4034ca390e3bd01bd9af0bb8625659a8e5f1fbbb8756c7f750",
+      "file": "audio/garden-enchanted-journey.mp3"
+    },
+    {
+      "sha256": "b442ade3308a2bbda4b8c572c86f9f1071c7bdbcfb1e6f915d35c605b61bd475",
+      "file": "audio/garden-win.ogg"
+    }
+  ],
+  "art_source": "Built-in OpenAI image-generation tool; prompts in assets/design/HOME-REVIEW.md",
+  "scope": "Home and Toybox Garden only",
+  "garden_music": {
+    "notice": "licenses/Enchanted-Journey-CC-BY-4.0.txt",
+    "title": "Enchanted Journey",
+    "changes": "Recording unchanged; runtime volume and fades",
+    "creator": "Kevin MacLeod",
+    "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100799",
+    "status": "review candidate",
+    "license": "CC-BY-4.0"
+  }
+}

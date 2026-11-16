@@ -1,0 +1,34 @@
+[package]
+name = "puzzgen-native"
+version = "0.2.0"
+edition = "2024"
+publish = false
+license = "MIT"
+
+[lib]
+name = "puzzgen_native"
+crate-type = ["lib", "cdylib"]
+
+[[bin]]
+name = "puzzgen-native"
+path = "src/main.rs"
+
+[dependencies]
+puzzgen-progression = { path = "../progression" }
+puzzgen-weather = { path = "../weather" }
+bevy = { version = "=0.17.3", default-features = false, features = ["std", "async_executor", "android-native-activity", "bevy_asset", "bevy_scene", "bevy_gltf", "bevy_log", "bevy_audio", "bevy_color", "bevy_core_pipeline", "bevy_pbr", "bevy_light", "bevy_render", "bevy_image", "bevy_mesh", "bevy_camera", "bevy_shader", "bevy_sprite", "bevy_sprite_render", "bevy_text", "bevy_ui", "bevy_ui_render", "bevy_window", "bevy_winit", "default_font", "multi_threaded", "png", "jpeg", "vorbis", "mp3", "wav", "x11"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+
+[target.'cfg(target_os = "android")'.dependencies]
+ndk-context = "0.1"
+jni = "0.21"
+
+# Android 8's 32-bit emulator exposes GLES, without modern Vulkan emulation.
+# Keep the normal ARM64 / x86_64 Vulkan builds unchanged.
+[target.'cfg(all(target_os = "android", any(target_arch = "x86", target_arch = "arm")))'.dependencies]
+bevy_render = { version = "=0.17.3", features = ["gles"] }
+
+[dev-dependencies]
+puzzgen = { path = "../../.." }

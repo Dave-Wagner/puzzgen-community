@@ -1,0 +1,10 @@
+{
+  "id": "v2-arithmetic-42-medium",
+  "generator_version": "2",
+  "kind": "arithmetic",
+  "seed": "42",
+  "difficulty": "medium",
+  "data": { "expression": "(21 + 29) * 13" },
+  "rules": "Evaluate the integer expression. Parentheses apply before multiplication, which applies before addition and subtraction.",
+  "uniqueness": "unique-integer-result"
+}

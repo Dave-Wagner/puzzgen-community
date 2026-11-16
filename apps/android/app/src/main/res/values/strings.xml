@@ -1,0 +1,4 @@
+<resources>
+    <string name="connection_error">Could not open the playground. Check the server connection, then try again.</string>
+    <string name="retry">Try again</string>
+</resources>

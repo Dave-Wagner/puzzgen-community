@@ -1,0 +1,1474 @@
+{
+  "version": "2",
+  "license": "CC0-1.0",
+  "locale": "en-US",
+  "spoonerisms": [
+    {
+      "phrases": [
+        "light rain",
+        "right lane"
+      ],
+      "clues": [
+        "A gentle shower from the clouds",
+        "The traffic lane on the passenger side in the US"
+      ],
+      "onsets": [
+        "l",
+        "r"
+      ],
+      "rimes": [
+        "aɪt",
+        "eɪn"
+      ]
+    },
+    {
+      "phrases": [
+        "right wing",
+        "white ring"
+      ],
+      "clues": [
+        "The bird appendage opposite its left wing",
+        "A pale circular band"
+      ],
+      "onsets": [
+        "r",
+        "w"
+      ],
+      "rimes": [
+        "aɪt",
+        "ɪŋ"
+      ]
+    },
+    {
+      "phrases": [
+        "bad money",
+        "mad bunny"
+      ],
+      "clues": [
+        "Cash that is counterfeit or otherwise unsound",
+        "An angry rabbit"
+      ],
+      "onsets": [
+        "b",
+        "m"
+      ],
+      "rimes": [
+        "æd",
+        "ʌni"
+      ]
+    },
+    {
+      "phrases": [
+        "cozy nook",
+        "nosy cook"
+      ],
+      "clues": [
+        "A snug little corner for reading",
+        "A kitchen worker who pries into other people's business"
+      ],
+      "onsets": [
+        "k",
+        "n"
+      ],
+      "rimes": [
+        "oʊzi",
+        "ʊk"
+      ]
+    },
+    {
+      "phrases": [
+        "blushing crow",
+        "crushing blow"
+      ],
+      "clues": [
+        "A black bird turning red with embarrassment, in a cartoon",
+        "A devastating strike or setback"
+      ],
+      "onsets": [
+        "bl",
+        "kr"
+      ],
+      "rimes": [
+        "ʌʃɪŋ",
+        "oʊ"
+      ]
+    },
+    {
+      "clues": [
+        "A chilly farm animal with horns",
+        "An outer garment the color of a precious yellow metal"
+      ],
+      "rimes": [
+        "oʊld",
+        "oʊt"
+      ],
+      "onsets": [
+        "k",
+        "ɡ"
+      ],
+      "phrases": [
+        "cold goat",
+        "gold coat"
+      ]
+    },
+    {
+      "clues": [
+        "A very heavy shower from the clouds",
+        "Intense discomfort imagined as making a loud growl"
+      ],
+      "rimes": [
+        "ɔrɪŋ",
+        "eɪn"
+      ],
+      "onsets": [
+        "p",
+        "r"
+      ],
+      "phrases": [
+        "pouring rain",
+        "roaring pain"
+      ]
+    },
+    {
+      "clues": [
+        "Someone telling untruths while engaged in a quarrel",
+        "Starting a flame, said without an article"
+      ],
+      "rimes": [
+        "aɪtɪŋ",
+        "aɪər"
+      ],
+      "onsets": [
+        "f",
+        "l"
+      ],
+      "phrases": [
+        "fighting liar",
+        "lighting fire"
+      ]
+    },
+    {
+      "clues": [
+        "A spotted big cat pushing something aside",
+        "A caring person who looks after sheep"
+      ],
+      "rimes": [
+        "ʌvɪŋ",
+        "ɛpərd"
+      ],
+      "onsets": [
+        "ʃ",
+        "l"
+      ],
+      "phrases": [
+        "shoving leopard",
+        "loving shepherd"
+      ]
+    },
+    {
+      "clues": [
+        "Small chewy sweets shaped like seeds",
+        "Whimsical name for denim trousers covering your tummy"
+      ],
+      "rimes": [
+        "ɛli",
+        "iːnz"
+      ],
+      "onsets": [
+        "dʒ",
+        "b"
+      ],
+      "phrases": [
+        "jelly beans",
+        "belly jeans"
+      ]
+    }
+  ],
+  "anagrams": [
+    [
+      "listen",
+      "Pay attention with your ears"
+    ],
+    [
+      "silent",
+      "Making no sound"
+    ],
+    [
+      "garden",
+      "A place where flowers and vegetables grow"
+    ],
+    [
+      "danger",
+      "The possibility of harm"
+    ],
+    [
+      "rescue",
+      "Save someone from harm"
+    ],
+    [
+      "secure",
+      "Safe and firmly fastened"
+    ],
+    [
+      "stream",
+      "A small flowing watercourse"
+    ],
+    [
+      "master",
+      "Become highly skilled at something"
+    ],
+    [
+      "stone",
+      "A small piece of rock"
+    ],
+    [
+      "notes",
+      "Short written reminders"
+    ],
+    [
+      "earth",
+      "Our home planet"
+    ],
+    [
+      "heart",
+      "The organ that pumps blood"
+    ],
+    [
+      "angel",
+      "A heavenly messenger in a story"
+    ],
+    [
+      "angle",
+      "The opening between two meeting lines"
+    ],
+    [
+      "glean",
+      "Gather small bits of information"
+    ],
+    [
+      "below",
+      "At a lower position"
+    ],
+    [
+      "elbow",
+      "The joint halfway along your arm"
+    ],
+    [
+      "brag",
+      "Speak boastfully about yourself"
+    ],
+    [
+      "grab",
+      "Take hold of something suddenly"
+    ],
+    [
+      "bread",
+      "Food baked from flour and yeast"
+    ],
+    [
+      "beard",
+      "Hair growing on a chin"
+    ],
+    [
+      "bored",
+      "Feeling uninterested"
+    ],
+    [
+      "robed",
+      "Dressed in a long loose garment"
+    ],
+    [
+      "care",
+      "Attention given to someone's well-being"
+    ],
+    [
+      "race",
+      "A contest to reach the finish first"
+    ],
+    [
+      "acre",
+      "A unit of land area"
+    ],
+    [
+      "cinema",
+      "A place to watch films"
+    ],
+    [
+      "iceman",
+      "A person who delivers frozen water"
+    ],
+    [
+      "save",
+      "Keep something for later use"
+    ],
+    [
+      "vase",
+      "A container for cut flowers"
+    ],
+    [
+      "vile",
+      "Extremely unpleasant"
+    ],
+    [
+      "veil",
+      "A thin covering worn over the face"
+    ],
+    [
+      "live",
+      "Be alive"
+    ],
+    [
+      "inch",
+      "One twelfth of a foot"
+    ],
+    [
+      "chin",
+      "The lower part of your face below the mouth"
+    ],
+    [
+      "night",
+      "The dark part of a day"
+    ],
+    [
+      "thing",
+      "An object whose name is not specified"
+    ],
+    [
+      "study",
+      "Spend time learning a subject"
+    ],
+    [
+      "dusty",
+      "Covered with fine dry particles"
+    ],
+    [
+      "lemon",
+      "A sour yellow citrus fruit"
+    ],
+    [
+      "melon",
+      "A large fruit with a thick rind"
+    ],
+    [
+      "peach",
+      "A fuzzy fruit with a large stone"
+    ],
+    [
+      "cheap",
+      "Costing little money"
+    ],
+    [
+      "panel",
+      "A flat section of a wall or door"
+    ],
+    [
+      "plane",
+      "An aircraft with fixed wings"
+    ],
+    [
+      "hater",
+      "A person who strongly dislikes something"
+    ],
+    [
+      "cider",
+      "A drink made from apples"
+    ],
+    [
+      "cried",
+      "Shed tears in the past"
+    ],
+    [
+      "dairy",
+      "A place or business dealing with milk"
+    ],
+    [
+      "diary",
+      "A personal record of daily events"
+    ],
+    [
+      "alert",
+      "Ready to notice danger"
+    ],
+    [
+      "alter",
+      "Make a change to something"
+    ],
+    [
+      "later",
+      "At a future time"
+    ],
+    [
+      "stale",
+      "No longer fresh"
+    ],
+    [
+      "steal",
+      "Take something that belongs to someone else"
+    ],
+    [
+      "least",
+      "The smallest amount"
+    ],
+    [
+      "slate",
+      "A dark fine-grained stone used for roofs"
+    ],
+    [
+      "tales",
+      "Stories told to an audience"
+    ],
+    [
+      "trace",
+      "Follow the outline of something"
+    ],
+    [
+      "crate",
+      "A large box for transporting goods"
+    ],
+    [
+      "react",
+      "Respond to an event"
+    ],
+    [
+      "cater",
+      "Provide food for a gathering"
+    ],
+    [
+      "teach",
+      "Help someone learn"
+    ],
+    [
+      "cheat",
+      "Break rules to gain an unfair advantage"
+    ],
+    [
+      "stare",
+      "Look fixedly for a long time"
+    ],
+    [
+      "tears",
+      "Drops of salty liquid from your eyes"
+    ],
+    [
+      "rates",
+      "Prices charged for a service"
+    ],
+    [
+      "aster",
+      "A garden flower with a star-shaped head"
+    ],
+    [
+      "tread",
+      "Step or walk on a surface"
+    ],
+    [
+      "trade",
+      "Exchange goods or services"
+    ],
+    [
+      "rated",
+      "Given a score or classification"
+    ],
+    [
+      "spear",
+      "A long weapon with a pointed end"
+    ],
+    [
+      "spare",
+      "An extra item kept for future need"
+    ],
+    [
+      "pears",
+      "Sweet fruits with a narrow top and wider base"
+    ],
+    [
+      "parse",
+      "Analyze the structure of a sentence"
+    ],
+    [
+      "reaps",
+      "Harvests a crop"
+    ],
+    [
+      "pots",
+      "Containers used for cooking"
+    ],
+    [
+      "stop",
+      "Come to a halt"
+    ],
+    [
+      "post",
+      "Send a letter through the mail"
+    ],
+    [
+      "spot",
+      "A small round mark"
+    ],
+    [
+      "tops",
+      "The highest parts of objects"
+    ],
+    [
+      "opts",
+      "Chooses between possibilities"
+    ],
+    [
+      "east",
+      "The direction in which the sun rises"
+    ],
+    [
+      "seat",
+      "A place to sit"
+    ],
+    [
+      "eats",
+      "Takes food into the body"
+    ],
+    [
+      "teas",
+      "Drinks brewed from leaves"
+    ],
+    [
+      "salt",
+      "A mineral used to season food"
+    ],
+    [
+      "last",
+      "Coming after all the others"
+    ],
+    [
+      "slat",
+      "A thin narrow strip of wood"
+    ],
+    [
+      "water",
+      "The liquid that fills rivers"
+    ],
+    [
+      "worth",
+      "The value of something"
+    ],
+    [
+      "throw",
+      "Send something through the air by hand"
+    ],
+    [
+      "owner",
+      "A person to whom something belongs"
+    ],
+    [
+      "sadder",
+      "More unhappy"
+    ],
+    [
+      "adders",
+      "Small venomous snakes"
+    ],
+    [
+      "dreads",
+      "Fears something that may happen"
+    ],
+    [
+      "desert",
+      "A dry region with little rain"
+    ],
+    [
+      "rested",
+      "Recovered energy by taking a break"
+    ],
+    [
+      "tinsel",
+      "Shiny strips used for decoration"
+    ],
+    [
+      "inlets",
+      "Narrow stretches of water leading inland"
+    ],
+    [
+      "enlist",
+      "Join a group or service"
+    ],
+    [
+      "islet",
+      "A very small island"
+    ],
+    [
+      "tiles",
+      "Flat pieces used to cover a floor"
+    ],
+    [
+      "stile",
+      "Steps that let walkers cross a fence"
+    ],
+    [
+      "smile",
+      "A happy expression made with your mouth"
+    ],
+    [
+      "miles",
+      "Units of distance longer than kilometers"
+    ],
+    [
+      "limes",
+      "Small green citrus fruits"
+    ],
+    [
+      "baker",
+      "A person who makes bread"
+    ],
+    [
+      "brake",
+      "A device that slows a moving vehicle"
+    ],
+    [
+      "break",
+      "Separate into pieces"
+    ],
+    [
+      "boast",
+      "Talk proudly about your achievements"
+    ],
+    [
+      "boats",
+      "Small vessels that float on water"
+    ],
+    [
+      "roast",
+      "Cook with dry heat"
+    ],
+    [
+      "train",
+      "A linked series of railway carriages"
+    ],
+    [
+      "chair",
+      "A seat with a back"
+    ],
+    [
+      "charm",
+      "A quality that makes someone pleasant"
+    ],
+    [
+      "cloud",
+      "A visible mass of tiny water droplets in the sky"
+    ],
+    [
+      "music",
+      "Sounds arranged in patterns of rhythm and melody"
+    ],
+    [
+      "pencil",
+      "A writing tool with a graphite core"
+    ],
+    [
+      "window",
+      "An opening filled with glass to let in light"
+    ],
+    [
+      "candle",
+      "A stick of wax with a wick"
+    ],
+    [
+      "planet",
+      "A large world orbiting a star"
+    ],
+    [
+      "pocket",
+      "A small pouch sewn into clothing"
+    ],
+    [
+      "forest",
+      "A large area covered with trees"
+    ],
+    [
+      "rabbit",
+      "A small animal with long ears"
+    ],
+    [
+      "orange",
+      "A citrus fruit with a peel of the same name"
+    ],
+    [
+      "silver",
+      "A shiny pale-gray precious metal"
+    ],
+    [
+      "winter",
+      "The coldest season of the year"
+    ],
+    [
+      "spring",
+      "The season following winter"
+    ],
+    [
+      "summer",
+      "The warmest season of the year"
+    ],
+    [
+      "autumn",
+      "The season when many leaves change color"
+    ]
+  ],
+  "bridges": [
+    [
+      "sun",
+      "flower",
+      "pot",
+      "A blooming plant part"
+    ],
+    [
+      "rain",
+      "bow",
+      "tie",
+      "A curved arch or a ribbon knot"
+    ],
+    [
+      "snow",
+      "ball",
+      "room",
+      "A round object used in games"
+    ],
+    [
+      "tooth",
+      "brush",
+      "wood",
+      "A tool with bristles"
+    ],
+    [
+      "book",
+      "case",
+      "work",
+      "A container or protective covering"
+    ],
+    [
+      "door",
+      "bell",
+      "tower",
+      "A ringing instrument"
+    ],
+    [
+      "foot",
+      "ball",
+      "park",
+      "A round object used in games"
+    ],
+    [
+      "sea",
+      "shell",
+      "fish",
+      "A hard protective outer covering"
+    ],
+    [
+      "butter",
+      "fly",
+      "paper",
+      "Move through the air with wings"
+    ],
+    [
+      "star",
+      "fish",
+      "bowl",
+      "An animal that breathes through gills"
+    ],
+    [
+      "bird",
+      "house",
+      "boat",
+      "A dwelling"
+    ],
+    [
+      "moon",
+      "light",
+      "house",
+      "What a lamp produces"
+    ],
+    [
+      "sun",
+      "light",
+      "house",
+      "What a lamp produces"
+    ],
+    [
+      "star",
+      "light",
+      "house",
+      "Illumination from a lamp"
+    ],
+    [
+      "flash",
+      "light",
+      "house",
+      "What makes a dark room visible"
+    ],
+    [
+      "head",
+      "light",
+      "house",
+      "Illumination from a bulb"
+    ],
+    [
+      "candle",
+      "light",
+      "house",
+      "What a candle gives off"
+    ],
+    [
+      "lamp",
+      "shade",
+      "tree",
+      "A patch sheltered from direct sunlight"
+    ],
+    [
+      "sun",
+      "shade",
+      "tree",
+      "Shelter from bright sunlight"
+    ],
+    [
+      "rain",
+      "water",
+      "fall",
+      "The liquid that fills a river"
+    ],
+    [
+      "sea",
+      "water",
+      "fall",
+      "The liquid form of H2O"
+    ],
+    [
+      "fresh",
+      "water",
+      "melon",
+      "The liquid in a drinking glass"
+    ],
+    [
+      "snow",
+      "man",
+      "hole",
+      "An adult male person"
+    ],
+    [
+      "sand",
+      "man",
+      "hole",
+      "An adult male person"
+    ],
+    [
+      "post",
+      "man",
+      "hole",
+      "An adult male person"
+    ],
+    [
+      "fire",
+      "man",
+      "hole",
+      "An adult male person"
+    ],
+    [
+      "mail",
+      "box",
+      "car",
+      "A container with flat sides"
+    ],
+    [
+      "sand",
+      "box",
+      "car",
+      "A container with flat sides"
+    ],
+    [
+      "tool",
+      "box",
+      "car",
+      "A container used to hold objects"
+    ],
+    [
+      "shoe",
+      "box",
+      "car",
+      "A container made from cardboard or wood"
+    ],
+    [
+      "lunch",
+      "box",
+      "car",
+      "A container for carrying things"
+    ],
+    [
+      "match",
+      "box",
+      "car",
+      "A small container with flat sides"
+    ],
+    [
+      "shoe",
+      "lace",
+      "work",
+      "Decorative open fabric made of threads"
+    ],
+    [
+      "bed",
+      "room",
+      "mate",
+      "A space inside a building"
+    ],
+    [
+      "class",
+      "room",
+      "mate",
+      "A space enclosed by walls"
+    ],
+    [
+      "bath",
+      "room",
+      "mate",
+      "A space inside a home"
+    ],
+    [
+      "ball",
+      "room",
+      "mate",
+      "An enclosed space in a building"
+    ],
+    [
+      "bed",
+      "time",
+      "table",
+      "What a clock measures"
+    ],
+    [
+      "spring",
+      "time",
+      "table",
+      "The ongoing sequence measured by clocks"
+    ],
+    [
+      "day",
+      "time",
+      "table",
+      "What passes as a clock ticks"
+    ],
+    [
+      "night",
+      "time",
+      "table",
+      "What hours and minutes measure"
+    ],
+    [
+      "tea",
+      "cup",
+      "cake",
+      "A small drinking vessel with a handle"
+    ],
+    [
+      "butter",
+      "cup",
+      "cake",
+      "A little vessel used for drinking"
+    ],
+    [
+      "pan",
+      "cake",
+      "walk",
+      "A sweet baked dessert"
+    ],
+    [
+      "cup",
+      "cake",
+      "walk",
+      "A sweet baked treat"
+    ],
+    [
+      "book",
+      "mark",
+      "down",
+      "A visible sign made on a surface"
+    ],
+    [
+      "land",
+      "mark",
+      "down",
+      "A visible sign or indication"
+    ],
+    [
+      "hall",
+      "mark",
+      "down",
+      "A sign used to identify something"
+    ],
+    [
+      "foot",
+      "print",
+      "out",
+      "An impression or reproduction on paper"
+    ],
+    [
+      "finger",
+      "print",
+      "out",
+      "An impression made by pressing"
+    ],
+    [
+      "news",
+      "paper",
+      "clip",
+      "A thin sheet used for writing"
+    ],
+    [
+      "wall",
+      "paper",
+      "clip",
+      "A sheet used for drawing or writing"
+    ],
+    [
+      "sand",
+      "paper",
+      "clip",
+      "A thin material made from wood pulp"
+    ],
+    [
+      "note",
+      "book",
+      "case",
+      "A collection of pages bound together"
+    ],
+    [
+      "text",
+      "book",
+      "case",
+      "A bound set of pages"
+    ],
+    [
+      "cook",
+      "book",
+      "case",
+      "A bound volume with printed pages"
+    ],
+    [
+      "hand",
+      "bag",
+      "pipe",
+      "A soft container used to carry things"
+    ],
+    [
+      "tea",
+      "bag",
+      "pipe",
+      "A small flexible container"
+    ],
+    [
+      "school",
+      "bag",
+      "pipe",
+      "A flexible container carried by hand"
+    ],
+    [
+      "back",
+      "pack",
+      "horse",
+      "A bundle carried together"
+    ],
+    [
+      "ice",
+      "cream",
+      "puff",
+      "The rich fatty part of milk"
+    ],
+    [
+      "rain",
+      "coat",
+      "tail",
+      "An outer garment worn over clothes"
+    ],
+    [
+      "waist",
+      "coat",
+      "tail",
+      "A garment worn over other clothing"
+    ],
+    [
+      "wind",
+      "mill",
+      "stone",
+      "A building or machine that grinds grain"
+    ],
+    [
+      "saw",
+      "mill",
+      "stone",
+      "A building or machine for processing material"
+    ],
+    [
+      "black",
+      "bird",
+      "house",
+      "A feathered animal with wings"
+    ],
+    [
+      "blue",
+      "bird",
+      "house",
+      "An animal with feathers and a beak"
+    ],
+    [
+      "song",
+      "bird",
+      "house",
+      "A feathered animal that may sing"
+    ]
+  ],
+  "ladders": [
+    [
+      "cold",
+      "cord",
+      "card",
+      "ward",
+      "warm"
+    ],
+    [
+      "head",
+      "heal",
+      "teal",
+      "tell",
+      "tall",
+      "tail"
+    ],
+    [
+      "cat",
+      "cot",
+      "cog",
+      "dog",
+      "dig",
+      "fig"
+    ],
+    [
+      "boat",
+      "coat",
+      "cost",
+      "most",
+      "mast",
+      "mist"
+    ],
+    [
+      "cat",
+      "cot",
+      "cog",
+      "dog",
+      "dig",
+      "fig",
+      "fit",
+      "fat"
+    ],
+    [
+      "bat",
+      "cat",
+      "cot",
+      "dot",
+      "dog",
+      "fog",
+      "log",
+      "leg"
+    ],
+    [
+      "pen",
+      "pin",
+      "pit",
+      "pot",
+      "dot",
+      "dog",
+      "dig",
+      "fig"
+    ],
+    [
+      "hat",
+      "hot",
+      "dot",
+      "dog",
+      "fog",
+      "log",
+      "leg",
+      "beg"
+    ],
+    [
+      "big",
+      "bag",
+      "bat",
+      "cat",
+      "cot",
+      "dot",
+      "dog",
+      "dig"
+    ],
+    [
+      "sun",
+      "son",
+      "ton",
+      "tin",
+      "pin",
+      "pan",
+      "can",
+      "cat"
+    ],
+    [
+      "map",
+      "mop",
+      "hop",
+      "hot",
+      "dot",
+      "dog",
+      "dig",
+      "fig"
+    ],
+    [
+      "red",
+      "bed",
+      "bad",
+      "bat",
+      "cat",
+      "cot",
+      "cog",
+      "dog"
+    ],
+    [
+      "fan",
+      "fin",
+      "pin",
+      "pan",
+      "pat",
+      "cat",
+      "cot",
+      "dot"
+    ],
+    [
+      "cup",
+      "pup",
+      "pop",
+      "pot",
+      "dot",
+      "dog",
+      "dig",
+      "fig"
+    ],
+    [
+      "cold",
+      "cord",
+      "card",
+      "ward",
+      "warm",
+      "worm",
+      "word",
+      "wood"
+    ],
+    [
+      "head",
+      "heal",
+      "teal",
+      "tell",
+      "tall",
+      "tail",
+      "bail",
+      "ball"
+    ],
+    [
+      "boat",
+      "coat",
+      "cost",
+      "most",
+      "mast",
+      "mist",
+      "mint",
+      "mind"
+    ],
+    [
+      "book",
+      "cook",
+      "cool",
+      "pool",
+      "poll",
+      "pole",
+      "pale",
+      "sale"
+    ],
+    [
+      "hand",
+      "sand",
+      "sane",
+      "lane",
+      "lone",
+      "long",
+      "song",
+      "sang"
+    ],
+    [
+      "lead",
+      "load",
+      "goad",
+      "gold",
+      "cold",
+      "cord",
+      "card",
+      "ward"
+    ],
+    [
+      "rain",
+      "pain",
+      "paid",
+      "laid",
+      "land",
+      "lane",
+      "late",
+      "date"
+    ],
+    [
+      "mile",
+      "mine",
+      "mind",
+      "mint",
+      "mist",
+      "mast",
+      "most",
+      "cost"
+    ],
+    [
+      "farm",
+      "harm",
+      "hard",
+      "herd",
+      "head",
+      "heal",
+      "teal",
+      "tell"
+    ],
+    [
+      "milk",
+      "silk",
+      "sill",
+      "fill",
+      "fall",
+      "ball",
+      "bail",
+      "tail"
+    ],
+    [
+      "park",
+      "part",
+      "port",
+      "fort",
+      "foot",
+      "food",
+      "wood",
+      "word"
+    ],
+    [
+      "rice",
+      "rise",
+      "rose",
+      "pose",
+      "pole",
+      "pale",
+      "sale",
+      "same"
+    ],
+    [
+      "love",
+      "cove",
+      "core",
+      "cord",
+      "card",
+      "ward",
+      "warm",
+      "worm"
+    ],
+    [
+      "cake",
+      "lake",
+      "like",
+      "line",
+      "mine",
+      "mile",
+      "male",
+      "sale"
+    ],
+    [
+      "rope",
+      "ripe",
+      "ride",
+      "rise",
+      "rose",
+      "pose",
+      "pole",
+      "pale"
+    ],
+    [
+      "seat",
+      "meat",
+      "mean",
+      "moan",
+      "loan",
+      "load",
+      "road",
+      "roam"
+    ],
+    [
+      "heat",
+      "heal",
+      "heel",
+      "peel",
+      "peal",
+      "seal",
+      "seat",
+      "meat"
+    ],
+    [
+      "moon",
+      "moan",
+      "mean",
+      "meat",
+      "seat",
+      "seal",
+      "peal",
+      "peel"
+    ],
+    [
+      "five",
+      "dive",
+      "dove",
+      "cove",
+      "core",
+      "cord",
+      "card",
+      "ward"
+    ],
+    [
+      "nine",
+      "mine",
+      "mind",
+      "bind",
+      "band",
+      "sand",
+      "hand",
+      "hard"
+    ],
+    [
+      "stone",
+      "shone",
+      "shine",
+      "spine",
+      "spire",
+      "spore",
+      "store"
+    ],
+    [
+      "plane",
+      "plate",
+      "slate",
+      "state",
+      "stale",
+      "scale",
+      "scare"
+    ]
+  ]
+}
