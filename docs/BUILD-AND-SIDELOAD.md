@@ -2,7 +2,7 @@
 
 Beacon & Bough is a free, ad-free native Rust/Bevy Android game and a companion
 to the Puzzgen learning API. No WebView is used by the current native app.
-Source publication is pending owner review; cloning requires access until then.
+This repository contains source for independent builds, not an official signed release.
 
 ## Windows prerequisites
 
@@ -14,8 +14,8 @@ platform-tools and Android NDK r30. The public helper requires all three
 environment variables and never provisions keys, installs or uploads anything.
 
 ```powershell
-git clone https://github.com/Dave-Wagner/puzzgen.git
-Set-Location puzzgen
+git clone https://github.com/Dave-Wagner/puzzgen-community.git
+Set-Location puzzgen-community
 rustup target add aarch64-linux-android
 cargo install cargo-ndk --version 4.1.2 --locked
 pwsh -NoProfile -File .\scripts\Build-AndroidPublic.ps1 -Jobs 2
@@ -31,8 +31,7 @@ or later). Do not assume ARM64 support from the Android version alone.
 
 The workspace requires `apps/android/{native,game,weather,progression}` and
 `third_party/{bevy_render,bevy_pbr,wgpu-hal}`, Cargo.lock, selected runtime assets,
-and their licenses. A public snapshot missing these cannot build. See the local
-publication review for the recorded clean-checkout build result.
+and their licenses. A public snapshot missing these cannot build. A Windows clean-source ARM64 build was verified on 2026-11-16; other ABIs and device behavior require separate checks.
 
 ## Install your own build
 
@@ -63,6 +62,11 @@ Firebase auth and server-enforced quotas. Public Firebase client configuration
 is identification, not a backend secret or an unlimited-access credential.
 Independent deployments should use their own backend and Firebase projects.
 Do not expect production capacity or service availability from the dev endpoint.
+For your own service, pass `-BaseUrl https://your-api.example.org` to the public
+build helper and supply your own matching Firebase configuration and backend
+verifier. Keeping the default URL does not grant permission for load testing.
+Do not use a testing Firebase project or the personal development endpoint as
+your production environment.
 
 You do not need the maintainer's `.env`, family API key, upload keystore, or
 password to build. Do not use `-ProvisionDevKey` in public setup instructions.
@@ -80,5 +84,3 @@ builds use the builder's own key. An AAB is not directly sideloadable.
 For the API and browser playground, see the root README and `.env.example`.
 For credits and reuse terms, see THIRD-PARTY-NOTICES.md. No ads, in-app purchases,
 medical effectiveness, or cloud-save recovery are promised by this preview.
-
-

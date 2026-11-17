@@ -84,7 +84,7 @@ Trunk 0.22.1 was downloaded from its official GitHub release and
 matched SHA-256 `1cc65012a9df60b02db948f5a3f0601e594ce952efb1cfd23147c9021c9f7d75`.
 WSL and Docker are absent on this machine, so executing an ELF binary requires
 the VPS or another Linux machine. Build success and runtime testing are
-separate checks; see [deployment](../deploy/README.md).
+separate checks. Personal VPS deployment tooling is excluded from this source.
 
 Upstream references: [Rust platform support](https://doc.rust-lang.org/rustc/platform-support.html),
 [static linking](https://doc.rust-lang.org/reference/linkage.html#static-and-dynamic-c-runtimes),

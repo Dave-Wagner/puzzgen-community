@@ -10,6 +10,18 @@ deceptive advertisements. Older people deserve to play without deciphering
 whether a button belongs to a game or an ad. The game will remain free and
 ad-free. It makes no medical or therapeutic claims.
 
+## What is here
+
+- **Puzzgen:** a seeded puzzle API, browser playground and interactive lessons
+  for learning interface and game development.
+- **Beacon & Bough:** a native Android companion with puzzle games, a guiding
+  Beacon and rewards that grow a personal garden.
+
+This is a development preview. Source builds are available for experimentation;
+not every device, game or accessibility workflow has completed human review.
+The original code is free to use under MIT. Third-party materials keep their
+own licenses, including attribution requirements and Google SDK terms.
+
 ## Build the API and playground
 
 Install Rust stable, native compiler tools and PowerShell 7. Windows development
@@ -17,6 +29,8 @@ uses MSVC build tools; Linux native builds need a compiler toolchain. The server
 and frontend are Axum/Tokio and Leptos/WebAssembly. Node is not required.
 
 ```powershell
+git clone https://github.com/Dave-Wagner/puzzgen-community.git
+Set-Location puzzgen-community
 rustup target add wasm32-unknown-unknown
 cargo install trunk --version 0.22.1 --locked
 pwsh -NoProfile -File ./scripts/Build-Frontend.ps1
@@ -40,6 +54,8 @@ cargo run --locked -p puzzgen -- create-admin
 ```
 
 Never reuse the maintainer's database, credentials, signing key or family key.
+Public hosting is personally funded and capacity-limited. Use bundled practice
+fixtures or your own backend for experiments that generate sustained traffic.
 Hosted service access has quotas and no unlimited availability promise.
 Production and testing Firebase projects must remain separate.
 
@@ -63,4 +79,3 @@ licenses are distinct: see LICENSE, THIRD-PARTY-NOTICES.md and docs/licenses.
 CC-BY music retains attribution. Exact MPL decoder source archives are retained
 under third_party/symphonia-source. No maintainer convenience, signing, backup,
 key-provisioning or private deployment tools belong in the public distribution.
-
